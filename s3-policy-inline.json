@@ -1,0 +1,14 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Action": "sts:AssumeRole",
+            "Resource": [
+                "arn:aws:iam::767828756738:role/test",
+                "arn:aws:iam::767828756738:role/ec2-full-access"
+            ]
+        }
+    ]
+}
